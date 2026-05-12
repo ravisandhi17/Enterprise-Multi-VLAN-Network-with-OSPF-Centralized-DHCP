@@ -275,23 +275,6 @@ Wireless Network Integration
 
 Enterprise WAN Connectivity
 
-Future Improvements
-
-Possible future enhancements:
-
-Access Control Lists (ACLs)
-
-SSH Remote Access
-
-NAT/PAT
-
-EtherChannel
-
-HSRP/VRRP Redundancy
-
-DHCP Snooping
-
-Port Security
 
 **Author**
 
