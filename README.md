@@ -38,7 +38,7 @@ PCs, Printer, Laptop, Tablet, Smartphone
 
 Department-based VLAN segmentation
 
-VLAN and Department Structure
+**VLAN and Department Structure**
 
 VLAN	Department - Network Address	- Default Gateway
 
