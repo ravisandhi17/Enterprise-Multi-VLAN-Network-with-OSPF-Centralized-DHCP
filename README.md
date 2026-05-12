@@ -186,7 +186,7 @@ The DHCP server contains separate pools for each VLAN and the remote branch offi
 
 DHCP Pools:
 
-Pool Name -	Network -	Default Gateway -	Start IP -	Subnet Mask
+**Pool Name -	Network -	Default Gateway -	Start IP -	Subnet Mask**
 
 VLAN10 -	192.168.10.0/26 -	192.168.10.1 -	192.168.10.10	- 255.255.255.192
 
