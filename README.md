@@ -137,9 +137,9 @@ OSPF dynamically exchanges routing information between all routers.
 
  ![OSPF_NEIGHBORS_R4](screenshots/ospf/OSPF_NEIGHBORS_R4.png)
 
- ![IP_ROUTE_R1](screenshots/ospf/IP_ROUTE_R1.png)
+ 
 
- ![IP_ROUTE_R4](screenshots/ospf/IP_ROUTE_R4.png)
+
 
 **4. Wireless Connectivity**
 
