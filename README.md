@@ -202,7 +202,7 @@ POOL_ROUTER_4 -	192.168.40.0/24 -	192.168.40.1 -	192.168.40.10 -	255.255.255.0
 
 **Router1 Subinterfaces**
 
-interface GigabitEthernet0/0.10
+**VLAN10** - interface GigabitEthernet0/0.10
 
  encapsulation dot1Q 10
  
@@ -210,7 +210,7 @@ interface GigabitEthernet0/0.10
  
  ip helper-address 192.168.100.2
 
-interface GigabitEthernet0/0.20
+**VLAN20** - interface GigabitEthernet0/0.20
  
  encapsulation dot1Q 20
  
@@ -218,7 +218,7 @@ interface GigabitEthernet0/0.20
  
  ip helper-address 192.168.100.2
 
-interface GigabitEthernet0/0.30
+**VLAN30** - interface GigabitEthernet0/0.30
  
  encapsulation dot1Q 30
  
@@ -226,7 +226,7 @@ interface GigabitEthernet0/0.30
  
  ip helper-address 192.168.100.2
 
-interface GigabitEthernet0/0.40
+**VLAN40** - interface GigabitEthernet0/0.40
  
  encapsulation dot1Q 40
  
@@ -234,7 +234,7 @@ interface GigabitEthernet0/0.40
  
  ip helper-address 192.168.100.2
 
-**Router4 DHCP Relay**
+**Router4**
 
 interface GigabitEthernet0/1
 
@@ -242,10 +242,8 @@ interface GigabitEthernet0/1
  
  ip helper-address 192.168.100.2
 
-**OSPF Configuration Summary**
+**OSPF Configuration**
 
-**Router	Advertised Networks Router1	10.0.12.0, 192.168.10.0, 192.168.100.0 Router2	10.0.12.0, 10.0.23.0 Router3	10.0.23.0, 10.0.34.0
-Router4	10.0.34.0, 192.168.40.0**
 
 **Connectivity Verification**
 
