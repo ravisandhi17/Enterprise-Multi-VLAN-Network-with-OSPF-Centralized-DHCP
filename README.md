@@ -145,11 +145,11 @@ OSPF dynamically exchanges routing information between all routers.
 
 VLAN 40 includes wireless access through an Access Point connected to:
 
-Laptop
+Laptop - 192.168.10.200
 
-Smartphone
+Smartphone - 192.168.10.195
 
-Tablet
+Tablet - 192.168.10.198
 
  ![PING_TEST_WIRELESS_DEVICES](screenshots/ping/PING_TEST_WIRELESS_DEVICES.png)
 
@@ -235,51 +235,7 @@ POOL_ROUTER_4 -	192.168.40.0/24 -	192.168.40.1 -	192.168.40.10 -	255.255.255.0
 
 ![IP_BY_DHCP_REMOTE_LAN](screenshots/dhcp/IP_BY_DHCP_REMOTE_LAN.png)
 
-**Router Configuration Highlights**
 
-**Router1 Subinterfaces**
-
-**VLAN10** - interface GigabitEthernet0/0.10
-
- encapsulation dot1Q 10
- 
- ip address 192.168.10.1 255.255.255.192
- 
- ip helper-address 192.168.100.2
-
-**VLAN20** - interface GigabitEthernet0/0.20
- 
- encapsulation dot1Q 20
- 
- ip address 192.168.10.65 255.255.255.192
- 
- ip helper-address 192.168.100.2
-
-**VLAN30** - interface GigabitEthernet0/0.30
- 
- encapsulation dot1Q 30
- 
- ip address 192.168.10.129 255.255.255.192
- 
- ip helper-address 192.168.100.2
-
-**VLAN40** - interface GigabitEthernet0/0.40
- 
- encapsulation dot1Q 40
- 
- ip address 192.168.10.193 255.255.255.192
- 
- ip helper-address 192.168.100.2
-
-**Router4**
-
-interface GigabitEthernet0/1
-
- ip address 192.168.40.1 255.255.255.0
- 
- ip helper-address 192.168.100.2
-
-  ![ROAS_VLAN-ROUTING_DHCP-RELAY](screenshots/ip_address/ROAS_VLAN-ROUTING_DHCP-RELAY.png)
 
 
 **Connectivity Verification**
