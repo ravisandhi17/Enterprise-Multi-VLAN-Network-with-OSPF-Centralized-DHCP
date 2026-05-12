@@ -40,7 +40,7 @@ Department-based VLAN segmentation
 
 **VLAN and Department Structure**
 
-VLAN	Department - Network Address	- Default Gateway
+**VLAN	Department - Network Address	- Default Gateway**
 
 VLAN 10	Sales -	192.168.10.0/26 -	192.168.10.1
 
