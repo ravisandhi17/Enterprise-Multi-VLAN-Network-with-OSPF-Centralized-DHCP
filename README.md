@@ -38,6 +38,9 @@ PCs, Printer, Laptop, Tablet, Smartphone
 
 Department-based VLAN segmentation
 
+![TOPOLOGY](screenshots/topology/TOPOLOGY.png)
+
+
 **VLAN and Department Structure**
 
 **VLAN	Department - Network Address	- Default Gateway**
@@ -51,6 +54,9 @@ VLAN 30	HR	- 192.168.10.128/26	- 192.168.10.129
 VLAN 40	Management	- 192.168.10.192/26	- 192.168.10.193
 
 Remote LAN	-	192.168.40.0/24	- 192.168.40.1
+
+![VLAN_BRIEF_INT_TRUNK](screenshots/vlan/VLAN_BRIEF_INT_TRUNK.png)
+
 
 **Technologies Used**
 
@@ -84,6 +90,9 @@ interface GigabitEthernet0/0.10
  
  ip address 192.168.10.1 255.255.255.192
 
+ ![ROAS_VLAN-ROUTING_DHCP-RELAY](screenshots/roas/ROAS_VLAN-ROUTING_DHCP-RELAY.png)
+
+
 **2. Centralized DHCP Server**
 
 A centralized DHCP server dynamically assigns IP addresses to:
@@ -116,6 +125,22 @@ Area 0
 
 OSPF dynamically exchanges routing information between all routers.
 
+ ![OSPF_R1](screenshots/ospf/OSPF_R1.png)
+
+ ![OSPF_R4](screenshots/ospf/OSPF_R4.png)
+
+ ![OSPF_NEIGHBORS_R1](screenshots/ospf/OSPF_NEIGHBORS_R1.png)
+
+ ![OSPF_NEIGHBORS_R2](screenshots/ospf/OSPF_NEIGHBORS_R2.png)
+
+ ![OSPF_NEIGHBORS_R3](screenshots/ospf/OSPF_NEIGHBORS_R3.png)
+
+ ![OSPF_NEIGHBORS_R4](screenshots/ospf/OSPF_NEIGHBORS_R4.png)
+
+ ![IP_ROUTE_R1](screenshots/ospf/IP_ROUTE_R1.png)
+
+ ![IP_ROUTE_R4](screenshots/ospf/IP_ROUTE_R4.png)
+
 **4. Wireless Connectivity**
 
 VLAN 40 includes wireless access through an Access Point connected to:
@@ -125,6 +150,9 @@ Laptop
 Smartphone
 
 Tablet
+
+ ![PING_TEST_WIRELESS_DEVICES](screenshots/ping/PING_TEST_WIRELESS_DEVICES.png)
+
 
 **IP Addressing Scheme**
 
@@ -155,6 +183,9 @@ G0/0.40	192.168.10.193/26
 G0/1	192.168.100.1/30
 
 G0/2	10.0.12.1/24
+
+ ![IP_INT_BRIEF](screenshots/ip_address/IP_INT_BRIEF.png)
+
 
 **Router2**
 
@@ -197,6 +228,12 @@ VLAN30 -	192.168.10.128/26 -	192.168.10.129 -	192.168.10.130 -	255.255.255.192
 VLAN40 -	192.168.10.192/26 -	192.168.10.193 -	192.168.10.194 -	255.255.255.192
 
 POOL_ROUTER_4 -	192.168.40.0/24 -	192.168.40.1 -	192.168.40.10 -	255.255.255.0
+
+![DHCP_POOL](screenshots/dhcp/DHCP_POOL.png)
+
+![IP_BY_DHCP_VLAN10](screenshots/dhcp/IP_BY_DHCP_VLAN10.png)
+
+![IP_BY_DHCP_REMOTE_LAN](screenshots/dhcp/IP_BY_DHCP_REMOTE_LAN.png)
 
 **Router Configuration Highlights**
 
@@ -242,7 +279,7 @@ interface GigabitEthernet0/1
  
  ip helper-address 192.168.100.2
 
-**OSPF Configuration**
+  ![ROAS_VLAN-ROUTING_DHCP-RELAY](screenshots/ip_address/ROAS_VLAN-ROUTING_DHCP-RELAY.png)
 
 
 **Connectivity Verification**
@@ -262,6 +299,7 @@ show ip interface brief
 **Test Connectivity**
 
 
+![PING_TEST](screenshots/ping/PING_TEST.png)
 
 
 
